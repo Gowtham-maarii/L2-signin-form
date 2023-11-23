@@ -1,0 +1,456 @@
+@media only screen and (min-width:773px) {
+
+/* Desktop styling */
+body
+{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    height: 100vh;
+    overflow-y: auto;
+    width:100%;
+    box-sizing: border-box;
+    
+}
+
+.login-card
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width:30%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    box-shadow:0px 3px 12px rgba(0,0,0,.65);
+}
+
+.login-card > h2 
+{
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: left;
+    width:100%;
+}
+
+.login-card > .Login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+   
+   
+}
+
+.Login > p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+
+.Login > input 
+{
+    height: 2rem;
+    border-radius: .25rem;
+    border:none;
+    outline:none;
+    padding: .5rem;
+    border:1px solid silver;
+}
+
+
+.Login > #BUTTON
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    /* padding-top:1rem; */
+    height: 2rem;
+
+
+}
+
+
+#BUTTON > button
+{
+    height: 2rem;
+    color: rgb(244, 244, 251);
+    padding: 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:cadetblue;
+    border-radius: .5rem;
+    outline: none;
+    border:none;
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.3);
+    cursor: pointer;
+    
+}
+
+
+#BUTTON > button:hover 
+{
+    box-shadow: 2px 4px 16px rgba(0,0,0,0.4);
+    font-weight: 600;
+}
+.or-line 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding:1rem 0;
+    
+}
+
+
+.or-line > .line 
+{
+    height:1px;
+    flex-grow: 1;
+    background-color: silver;
+}
+
+.or-line > .option 
+{
+    border:1px solid silver;
+    color:silver;
+    padding:.25rem;
+    border-radius: .25rem;
+    font-size: .875rem;
+}
+
+
+.social-logins
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+
+}
+
+.social-logins > .social-icons-holder 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:1rem 0;
+}
+
+
+.social-icons-holder > .social-icon 
+{
+    width:2.5rem;
+    height: 2.5rem;
+    border: 50%;
+    border:3px solid grey;
+    margin:0 .5rem; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-icons-holder > .social-icon:hover 
+{
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.3);
+    background-color: #007dbb2e;
+}
+
+
+.social-icon > img 
+{
+    width:1.25rem;
+    height: 1.25rem;
+}
+
+#google-login 
+{
+    border:3px solid #DB4437;
+}
+
+#fb-login 
+{
+    border:3px solid #1877F2;
+}
+
+#linked-in-login 
+{
+    border:3px solid #007EBB;
+}
+
+
+#linked-in-login > img
+{
+     width:1rem;
+     height: 1rem;
+}
+.social-logins > .hint 
+{
+    font-size: .875rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+.hint > a 
+{
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(0, 0, 0, .5);
+}
+
+}
+@media only screen and (max-width:772px) {
+    /* Mobile Styling */
+
+body
+{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    height: 100vh;
+    overflow-y: auto;
+    width:100%;
+    box-sizing: border-box;
+    padding:1rem;
+    
+}
+
+.login-card
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width:100%;
+    background-color: white;
+    height: calc(100vh - 2rem);
+    padding: 2rem;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    box-shadow:0px 3px 12px rgba(0,0,0,.65);
+}
+
+.login-card > h2 
+{
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: left;
+    width:100%;
+}
+
+.login-card > .Login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+   
+   
+}
+
+.Login > p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+
+.Login > input 
+{
+    height: 2rem;
+    border-radius: .25rem;
+    border:none;
+    outline:none;
+    padding: .5rem;
+    border:1px solid silver;
+}
+
+
+.Login > #BUTTON
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    /* padding-top:1rem; */
+    height: 2rem;
+
+
+}
+
+
+#BUTTON > button
+{
+    height: 2rem;
+    color: rgb(244, 244, 251);
+    padding: 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:cadetblue;
+    border-radius: .5rem;
+    outline: none;
+    border:none;
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.3);
+    cursor: pointer;
+    
+}
+
+
+#BUTTON > button:hover 
+{
+    box-shadow: 2px 4px 16px rgba(0,0,0,0.4);
+    font-weight: 600;
+}
+.or-line 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding:1rem 0;
+    
+}
+
+
+.or-line > .line 
+{
+    height:1px;
+    flex-grow: 1;
+    background-color: silver;
+}
+
+.or-line > .option 
+{
+    border:1px solid silver;
+    color:silver;
+    padding:.25rem;
+    border-radius: .25rem;
+    font-size: .875rem;
+}
+
+
+.social-logins
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+
+}
+
+.social-logins > .social-icons-holder 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:1rem 0;
+}
+
+
+.social-icons-holder > .social-icon 
+{
+    width:2.5rem;
+    height: 2.5rem;
+    border: 50%;
+    border:3px solid grey;
+    margin:0 .5rem; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-icons-holder > .social-icon:hover 
+{
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.3);
+    background-color: #007dbb2e;
+}
+
+
+.social-icon > img 
+{
+    width:1.25rem;
+    height: 1.25rem;
+}
+
+#google-login 
+{
+    border:3px solid #DB4437;
+}
+
+#fb-login 
+{
+    border:3px solid #1877F2;
+}
+
+#linked-in-login 
+{
+    border:3px solid #007EBB;
+}
+
+
+#linked-in-login > img
+{
+     width:1rem;
+     height: 1rem;
+}
+.social-logins > .hint 
+{
+    font-size: .875rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+.hint > a 
+{
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(0, 0, 0, .5);
+}
+
+}
