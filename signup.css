@@ -1,0 +1,445 @@
+
+body > .Signup-Form
+{
+    width: 100%;
+    height: 3rem;
+}
+body > .Signup-Form > .Heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
+    width: 100%;
+    padding:0 1rem;
+    
+
+}
+body > .Signup-Form > .Heading > h2
+{
+    margin: 0%;
+    padding-top: .2rem;
+    padding-bottom: 0;
+}
+
+.Signup-Form > .Name-container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: start;
+    width:100%;
+    box-sizing: border-box;
+    
+   
+}
+
+.Name-container > .Name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    padding:0 1rem;
+    
+}
+.Name-container > .Name > h3
+{
+    margin: 0%;
+    padding-top: 1.5rem;
+    padding-bottom: 5px;
+
+}
+
+.Name-container > .Full-name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Name-container > .Full-name > .First-Name 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    width: 50%;
+    padding:0 1rem;
+    box-sizing: border-box;
+    
+
+}
+
+.Name-container > .Full-name > .First-Name  > input
+{
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.Name-container > .Full-name > .Last-Name 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    padding:0 1rem;
+    box-sizing: border-box;
+    
+
+}
+
+.Name-container > .Full-name > .Last-Name  > input
+{
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.Email-container 
+{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+
+    
+}
+
+.Email-container > .Email
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    padding: 0 1rem;
+}
+
+.Email-container > .Email > h3
+{
+    margin: 0%;
+    padding-top: 1.5rem;
+    padding-bottom: 5px;
+
+}
+
+.Email-container > .Email-box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+
+}
+
+.Email-container > .Email-box > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+
+
+.Phone-Number
+{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+
+    
+}
+
+.Phone-Number > .Phone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    padding: 0 1rem;
+}
+
+.Phone-Number > .Phone > h3
+{
+    margin: 0%;
+    padding-top: 1.5rem;
+    padding-bottom: 5px;
+
+}
+
+.Phone-Number > .Ph-box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+
+}
+.Phone-Number > .Ph-box > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.Address
+{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    
+}
+
+.Address > .Add-name
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    padding: 0 1rem;
+}
+
+.Address > .Add-name > h3
+{
+    margin: 0%;
+    padding-top: 1.5rem;
+    padding-bottom: 5px;
+
+}
+
+.Address > .Street-Address 
+{
+   
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+    height: 6.5rem;
+
+}
+
+.Address > .Street-Address > .Address-1
+{
+
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 100%;
+    padding:0 1rem;
+    box-sizing: border-box;
+}
+
+.Address > .Street-Address > .Address-1 > input
+{
+    box-sizing: border-box;
+    height: 2rem;
+    padding-left: .5rem;
+
+}
+.Address > .Street-Address > .Address-2
+{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 100%;
+    padding:0 1rem;
+    box-sizing: border-box;
+}
+
+.Address > .Street-Address > .Address-2 > input
+{
+
+    box-sizing: border-box;
+    height: 2rem;
+    padding-left: .5rem;
+}
+
+.Address  > .city-Region
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.city-Region > .city
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    width: 50%;
+    padding:0 1rem;
+    box-sizing: border-box;
+
+}
+ .city-Region > .city > input
+{
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+ .city-Region > .region 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    padding:0 1rem;
+    box-sizing: border-box;
+} 
+
+.city-Region > .region > input
+{
+ 
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.Zipcode-Romania 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: .5rem;
+    
+}
+ 
+.Zipcode-Romania > .Zipcode
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    width: 50%;
+    padding:0 1rem;
+    box-sizing: border-box;
+
+}
+
+.Zipcode-Romania > .Zipcode > input
+{
+
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.Zipcode-Romania > .Romania
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    padding:0 1rem;
+    box-sizing: border-box;
+
+}
+
+.Zipcode-Romania > .Romania > input
+{
+
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.Queries
+{
+
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Queries > .comments 
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    padding: 0 1rem;
+}
+
+.Queries > .comments > h3
+{
+
+    margin: 0%;
+    padding-top: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.Queries > .Query-box
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+
+.Queries > .Query-box > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    height: 4rem;
+    box-sizing: border-box;
+    padding-left: .5rem; 
+
+}
