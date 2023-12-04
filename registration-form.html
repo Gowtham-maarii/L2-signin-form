@@ -46,7 +46,7 @@
                     <img src="./img/user.png" alt="profile-logo">
                 </div>
                 <div class="Person-name-1">
-                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="First Name">
                 </div>
             </div>
             <div class="Second-Name">
@@ -54,13 +54,47 @@
                     <img src="./img/user.png" alt="profile-logo">
                 </div>
                 <div class="Person-name-2">
-                    <input type="text" placeholder="sec name">                     
+                    <input type="text" placeholder="Last Name">                     
                 </div>
             </div>
-
-            
-
         </div>
+
+        <div class="Gender">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label>Male</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label>Female</label><br>
+        </div>
+
+        <div class="country-selector">
+            <form action="/action_page.php">
+                <input list="browsers" name="browser" placeholder="Select a Country" >
+                <datalist id="browsers">
+                  <option value="AUSTRALIA">
+                  <option value="ENGLAND">
+                  <option value="INDIA">
+                  <option value="AMERICA">
+                  <option value="SOUTH AFRICA">
+                </datalist>
+            </form>    
+            
+        </div>
+
+        <div class="Agreement">
+            <input type="checkbox" id="T&C" name="T&C">
+            <label>I agree terms and conditions</label>
+        </div>
+        <div class="Agreement">
+            <input type="checkbox" id="T&C" name="T&C">
+            <label>I want to receive the newsletter</label>
+        </div>
+
+        <div class="Register-button">
+            <h3>Register</h3>
+        </div>
+
+
+
 
     </div>
     

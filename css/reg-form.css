@@ -1,15 +1,42 @@
+@media only screen and (min-width:773px)
+{
+    @media only screen and (min-width:773px)
+{
+    
+}
+
 body
 {
-    width: 100%;
-    height:100%; 
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    height: 100vh;
+    overflow-y: auto;
+    width:100%;
+    box-sizing: border-box;
 }
 
 
 
 body > .Responsive-Registration-Form
 {
-    width: 100%;
-    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width:40%;
+    background-color: white;
+    padding: 2rem;
+    height: 95%;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    box-shadow:0px 3px 12px rgba(0,0,0,.65);
+    font-family:'Poppins', sans-serif;
 }
 
 .Responsive-Registration-Form > .Title
@@ -19,9 +46,18 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 73%;
+    width: 100%;
+    height: 4rem;
+    
 }
 
+.Responsive-Registration-Form > .Title > h1
+{
+    padding-top: 0;
+    margin-top: 0%;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+}
 
  .Responsive-Registration-Form > .Email-info
 {
@@ -30,6 +66,7 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content:center;
     align-items: center;
+    width:100%;
 }
 
 
@@ -38,9 +75,10 @@ body > .Responsive-Registration-Form
     display: flex;
     flex-direction: row;
     justify-content:left;
-    align-items:start;
+    align-items:center;
     border: 1px solid black;
-    height: 2.2rem;
+    height: 2.3rem;
+    border-right:hidden;
    
 
 }
@@ -48,9 +86,9 @@ body > .Responsive-Registration-Form
 
 .Responsive-Registration-Form > .Email-info > .Email-logo > img
 {
-    width: 1.2rem;
-    height: 1.2rem;
-    padding: 10px 7px;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
 }
 
 .Responsive-Registration-Form > .Email-info  > .Email-name 
@@ -60,7 +98,7 @@ body > .Responsive-Registration-Form
     justify-content:left;
     align-items: center;
     
-    width: 55%;
+    width: 100%;
 
     box-sizing: border-box;
 
@@ -74,7 +112,7 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content:left;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 2rem;
 }
 
@@ -86,6 +124,7 @@ body > .Responsive-Registration-Form
     justify-content:center;
     align-items: center;
     padding: 1rem 0;
+    width: 100%;
 }
 
 .Password-info > .Locker-logo
@@ -94,17 +133,23 @@ body > .Responsive-Registration-Form
     display: flex;
     flex-direction: row;
     justify-content:left;
-    align-items:start;
+    align-items: center;
     border: 1px solid black;
-    height: 2.5rem;
+    height: 2.3rem;
+    border-right:hidden;
 }
 
 
 .Password-info > .Locker-logo > img
 {
-    width: 1.2rem;
-    height: 1.2rem;
-    padding: 10px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+  
 }
 
 .Password-info > .Password-name
@@ -114,7 +159,7 @@ body > .Responsive-Registration-Form
     justify-content:left;
     align-items: center;
    
-    width: 55%;
+    width: 100%;
    
     height: 2rem;
     box-sizing: border-box;
@@ -126,7 +171,7 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content:left;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 2rem;
 
 }
@@ -138,7 +183,8 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    padding: .18rem 0;
+    padding: .10rem 0;
+    width: 100%;
 }
 
 .Re-type-Password-info > .Locker-logo
@@ -149,14 +195,19 @@ body > .Responsive-Registration-Form
     justify-content:left;
     align-items:start;
     border: 1px solid black;
-    height: 2.5rem;
+    height: 2.3rem;
+    border-right:hidden;
 }
 .Re-type-Password-info > .Locker-logo > img
 {
 
-    width: 1.2rem;
-    height: 1.2rem;
-    padding: 10px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
 }
 
 .Re-type-Password-info > .Password-name
@@ -166,7 +217,7 @@ body > .Responsive-Registration-Form
     justify-content:left;
     align-items: center;
    
-    width: 55%;
+    width: 100%;
    
     height: 2rem;
     box-sizing: border-box;
@@ -178,7 +229,7 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content:left;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 2rem;
 
 }
@@ -192,12 +243,12 @@ body > .Responsive-Registration-Form
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-between;
     align-items:center;
     width: 100%;
-    height: 8rem;
-    padding-top: 1.2rem;
-    padding-right:100px;
+  
+    padding-top:1.1rem;
+   
 }
 
 .Name-container > .First-Name
@@ -205,9 +256,9 @@ body > .Responsive-Registration-Form
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items:start;
-    width: 27%;
-    height: 8rem;
+    align-items:center;
+    width: 100%;
+    height: 1rem;
     box-sizing: border-box;
     
   
@@ -227,8 +278,14 @@ body > .Responsive-Registration-Form
 }
 .Name-container > .First-Name > .profile-logo > img
 {
-    width: 1.2rem;
-    height: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+
 
 }
 .Name-container > .First-Name > .Person-name-1
@@ -236,10 +293,10 @@ body > .Responsive-Registration-Form
 
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content:center;
     align-items: center;
    
-    width: 55%;
+    width: 50%;
    
     height: 2rem;
     box-sizing: border-box;
@@ -249,10 +306,10 @@ body > .Responsive-Registration-Form
 {
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content:center;
     align-items: center;
-    width:50%;
-    height: 1.5rem;
+    width:100%;
+    height: 2rem;
 
 }
 
@@ -268,9 +325,9 @@ body > .Responsive-Registration-Form
     display: flex;
     flex-direction: row;
     justify-content:left;
-    align-items:start;
-    width: 30%;
-    height: 8rem;
+    align-items:center;
+    width: 100%;
+    height: 2rem;
 }
 
 .Name-container > .Second-Name > .profile-logo
@@ -280,15 +337,21 @@ body > .Responsive-Registration-Form
     justify-content:center;
     align-items:center;
     border: 1px solid black;
-    width: 8%;
-    height: 2rem;
+    width: 2rem;
+    height: 2.3rem;
 
 }
 
 .Name-container > .Second-Name > .profile-logo > img
 {
-    width: 1.2rem;
-    height: 1.2rem;
+     display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+  
 }
 .Name-container > .Second-Name > .Person-name-2
 {
@@ -298,7 +361,7 @@ body > .Responsive-Registration-Form
     justify-content:left;
     align-items: center;
    
-    width: 55%;
+    width: 50%;
    
     height: 2rem;
     box-sizing: border-box; 
@@ -310,8 +373,8 @@ body > .Responsive-Registration-Form
     flex-direction: row;
     justify-content:left;
     align-items: center;
-    width: 50%;
-    height: 1.5rem;
+    width: 100%;
+    height: 2rem;
 
 }
 
@@ -319,3 +382,609 @@ body > .Responsive-Registration-Form
 {
     padding-left: 5px;
 }
+
+.Gender
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    text-align: left;
+    padding: 1.5rem; 
+    width:100%;
+}
+
+.Gender > input
+{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+ .Gender > label
+ {
+    display: flex;
+    flex-direction: row;
+    align-items:left;
+    justify-content:start;
+    text-align: center;
+    
+    width: 15%;
+ }
+.country-selector
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.country-selector > form
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+}
+.country-selector > form > input 
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+  
+}
+
+.Agreement 
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items:start;
+    width: 100%;
+    height: 1rem;
+    padding-top: 1rem;
+
+}
+
+    .Register-button 
+    {
+       display: flex; 
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 3rem;
+       border: 1px solid black;
+       margin-top: 1.5rem;
+       margin-left: 1rem;
+       border-radius: .5rem;
+       border: hidden;
+       background-color:hsla(39, 100%, 52%, 0.62);
+       box-sizing: border-box;
+       
+       margin-left: 0%;
+    }
+
+    .Register-button > h3
+    {
+        display: flex; 
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+
+    }
+
+    .Register-button:hover
+    {
+        box-shadow: 2px 4px 16px rgba(0,0,0,0.4);
+        font-weight: 600;
+
+    }
+}
+
+@media only screen and (max-width:772px)
+{
+
+body
+{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    height: 100vh;
+    overflow-y: auto;
+    width:100%;
+    box-sizing: border-box;
+}
+
+
+
+body > .Responsive-Registration-Form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width:40%;
+    background-color: white;
+    padding: 2rem;
+    height: 95%;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    box-shadow:0px 3px 12px rgba(0,0,0,.65);
+    font-family:'Poppins', sans-serif;
+}
+
+.Responsive-Registration-Form > .Title
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    
+}
+
+.Responsive-Registration-Form > .Title > h1
+{
+    padding-top: 0;
+    margin-top: 0%;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+ .Responsive-Registration-Form > .Email-info
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+}
+
+
+.Responsive-Registration-Form > .Email-info > .Email-logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    border: 1px solid black;
+    height: 2.3rem;
+    border-right:hidden;
+   
+
+}
+
+
+.Responsive-Registration-Form > .Email-info > .Email-logo > img
+{
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+}
+
+.Responsive-Registration-Form > .Email-info  > .Email-name 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    
+    width: 100%;
+
+    box-sizing: border-box;
+
+    
+
+}
+
+.Responsive-Registration-Form > .Email-info  > .Email-name  > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.Responsive-Registration-Form >  .Password-info 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.Password-info > .Locker-logo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    border: 1px solid black;
+    height: 2.3rem;
+    border-right:hidden;
+}
+
+
+.Password-info > .Locker-logo > img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+  
+}
+
+.Password-info > .Password-name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 100%;
+   
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.Password-info > .Password-name > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+
+}
+
+.Re-type-Password-info 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: .10rem 0;
+    width: 100%;
+}
+
+.Re-type-Password-info > .Locker-logo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:start;
+    border: 1px solid black;
+    height: 2.3rem;
+    border-right:hidden;
+}
+.Re-type-Password-info > .Locker-logo > img
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+}
+
+.Re-type-Password-info > .Password-name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 100%;
+   
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.Re-type-Password-info > .Password-name > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+
+}
+    
+
+
+
+
+.Name-container
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+  
+    padding-top:1.1rem;
+   
+}
+
+.Name-container > .First-Name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:center;
+    width: 100%;
+    height: 1rem;
+    box-sizing: border-box;
+    
+  
+    
+}
+
+.Name-container > .First-Name > .profile-logo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid black;
+    width:2rem;
+    height: 2.3rem;
+}
+.Name-container > .First-Name > .profile-logo > img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+
+
+}
+.Name-container > .First-Name > .Person-name-1
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+   
+    width: 50%;
+   
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.Name-container > .First-Name > .Person-name-1 >input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height: 2rem;
+
+}
+
+.Name-container > .First-Name > .Person-name-1 > h3
+{
+    padding-left: 5px;
+}
+
+
+.Name-container > .Second-Name
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    width: 100%;
+    height: 2rem;
+}
+
+.Name-container > .Second-Name > .profile-logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2.3rem;
+
+}
+
+.Name-container > .Second-Name > .profile-logo > img
+{
+     display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 10px 8px;
+  
+}
+.Name-container > .Second-Name > .Person-name-2
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 50%;
+   
+    height: 2rem;
+    box-sizing: border-box; 
+}
+
+.Name-container > .Second-Name > .Person-name-2 > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+
+}
+
+.Name-container > .Second-Name > .Person-name-2 > h3
+{
+    padding-left: 5px;
+}
+
+.Gender
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    text-align: left;
+    padding: 1.5rem; 
+    width:100%;
+}
+
+.Gender > input
+{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+ .Gender > label
+ {
+    display: flex;
+    flex-direction: row;
+    align-items:left;
+    justify-content:start;
+    text-align: center;
+    
+    width: 15%;
+ }
+.country-selector
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.country-selector > form
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+}
+.country-selector > form > input 
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+    box-sizing: border-box;
+  
+}
+
+.Agreement 
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items:start;
+    width: 100%;
+    height: 1rem;
+    padding-top: 1rem;
+
+}
+
+    .Register-button 
+    {
+       display: flex; 
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 3rem;
+       border: 1px solid black;
+       margin-top: 1.5rem;
+       margin-left: 1rem;
+       border-radius: .5rem;
+       border: hidden;
+       background-color:hsla(39, 100%, 52%, 0.62);
+       box-sizing: border-box;
+       
+       margin-left: 0%;
+    }
+
+    .Register-button > h3
+    {
+        display: flex; 
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+
+    }
+
+    .Register-button:hover
+    {
+        box-shadow: 2px 4px 16px rgba(0,0,0,0.4);
+        font-weight: 600;
+
+    }
+}
+
