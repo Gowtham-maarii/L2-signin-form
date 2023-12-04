@@ -1,0 +1,321 @@
+body
+{
+    width: 100%;
+    height:100%; 
+}
+
+
+
+body > .Responsive-Registration-Form
+{
+    width: 100%;
+    height:100%;
+}
+
+.Responsive-Registration-Form > .Title
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+}
+
+
+ .Responsive-Registration-Form > .Email-info
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.Responsive-Registration-Form > .Email-info > .Email-logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:start;
+    border: 1px solid black;
+    height: 2.2rem;
+   
+
+}
+
+
+.Responsive-Registration-Form > .Email-info > .Email-logo > img
+{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 10px 7px;
+}
+
+.Responsive-Registration-Form > .Email-info  > .Email-name 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    
+    width: 55%;
+
+    box-sizing: border-box;
+
+    
+
+}
+
+.Responsive-Registration-Form > .Email-info  > .Email-name  > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 50%;
+    height: 2rem;
+}
+
+.Responsive-Registration-Form >  .Password-info 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.Password-info > .Locker-logo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:start;
+    border: 1px solid black;
+    height: 2.5rem;
+}
+
+
+.Password-info > .Locker-logo > img
+{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 10px 7px;
+}
+
+.Password-info > .Password-name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 55%;
+   
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.Password-info > .Password-name > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 50%;
+    height: 2rem;
+
+}
+
+.Re-type-Password-info 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: .18rem 0;
+}
+
+.Re-type-Password-info > .Locker-logo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:start;
+    border: 1px solid black;
+    height: 2.5rem;
+}
+.Re-type-Password-info > .Locker-logo > img
+{
+
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 10px 7px;
+}
+
+.Re-type-Password-info > .Password-name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 55%;
+   
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.Re-type-Password-info > .Password-name > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 50%;
+    height: 2rem;
+
+}
+    
+
+
+
+
+.Name-container
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 8rem;
+    padding-top: 1.2rem;
+    padding-right:100px;
+}
+
+.Name-container > .First-Name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:start;
+    width: 27%;
+    height: 8rem;
+    box-sizing: border-box;
+    
+  
+    
+}
+
+.Name-container > .First-Name > .profile-logo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid black;
+    width:2rem;
+    height: 2.3rem;
+}
+.Name-container > .First-Name > .profile-logo > img
+{
+    width: 1.2rem;
+    height: 1.2rem;
+
+}
+.Name-container > .First-Name > .Person-name-1
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 55%;
+   
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.Name-container > .First-Name > .Person-name-1 >input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width:50%;
+    height: 1.5rem;
+
+}
+
+.Name-container > .First-Name > .Person-name-1 > h3
+{
+    padding-left: 5px;
+}
+
+
+.Name-container > .Second-Name
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:start;
+    width: 30%;
+    height: 8rem;
+}
+
+.Name-container > .Second-Name > .profile-logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid black;
+    width: 8%;
+    height: 2rem;
+
+}
+
+.Name-container > .Second-Name > .profile-logo > img
+{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.Name-container > .Second-Name > .Person-name-2
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+   
+    width: 55%;
+   
+    height: 2rem;
+    box-sizing: border-box; 
+}
+
+.Name-container > .Second-Name > .Person-name-2 > input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    width: 50%;
+    height: 1.5rem;
+
+}
+
+.Name-container > .Second-Name > .Person-name-2 > h3
+{
+    padding-left: 5px;
+}
